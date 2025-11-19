@@ -1,3 +1,4 @@
+
 body {
     padding: 0;
     margin: 0;
@@ -39,7 +40,7 @@ body {
     color: #e60012;
 }
 
-.navbar {
+.navbar-desktop {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,4 +55,26 @@ body {
     border: 0;
     font-size: #f8f8f8;
     font-weight: 800;
+}
+
+.reddem_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 48px;
+    background-color: #f8f8f8;
+}
+
+.reddem_bar_description {
+    font-weight: 300;
+}
+
+.reddem_bar_span {
+    font-weight: 600;
+    color: #484848;
+}
+
+a {
+    text-decoration: underline;
+    color: #484848;
 }
