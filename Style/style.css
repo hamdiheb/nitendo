@@ -78,3 +78,36 @@ a {
     text-decoration: underline;
     color: #484848;
 }
+
+.game_container {
+    display: flex;
+    justify-content: center;
+    background-color: #d6f0fa;
+}
+
+.game_container_content {
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    max-width: 1240px;
+    margin: 20px auto;
+    border-radius: 0.75rem;
+    box-shadow: rgba(60, 64, 89, 0.15) 0px 4px 16px 0px;
+}
+.game_container_data {
+    display: flex;
+}
+
+.game_container_root {
+    display: flex;
+    list-style: none;
+}
+
+.game_container_link {
+    margin-right: 10px;
+}
+
+.game_container_img{
+   width: 656px;
+   height: 370px; 
+   border-radius: 12px;
+}
