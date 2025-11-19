@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Geologica Variable", sans-serif;
+}
+
+.nav-svg-main {
+    width: 160px;
+    height: 90px;
+}
+
+.nav-svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 90px;
+    align-items: center;
+    color: #484848;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.nav-list-link {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    color: #484848;
+    text-decoration: none;
+}
+
+.nav-list-link:hover {
+    color: #e60012;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dadada;
+}
+
+.nav-link-shadow {
+    background-color: #f8f8f8;
+    padding: 0.5rem 0.75rem;
+    border-radius: 20px;
+    border: 0;
+    font-size: #f8f8f8;
+    font-weight: 800;
+}
