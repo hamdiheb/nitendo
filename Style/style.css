@@ -83,6 +83,7 @@ a {
     display: flex;
     justify-content: center;
     background-color: #d6f0fa;
+    height: 550px;
 }
 
 .game_container_content {
@@ -92,6 +93,7 @@ a {
     margin: 20px auto;
     border-radius: 0.75rem;
     box-shadow: rgba(60, 64, 89, 0.15) 0px 4px 16px 0px;
+    height: 550px;
 }
 .game_container_data {
     display: flex;
@@ -176,4 +178,44 @@ a {
 .btn_desc {
     font-size: 0.75rem;
     color: #484848;
+}
+
+.wrap-slider-image {
+    width: 70%;
+    margin-left: 30px;
+    padding: 20px 0px;
+}
+
+.slider-image {
+    width: 90px;
+    border: 1px solid #efefef;
+    border-radius: 0.75rem;
+}
+
+.main-data {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-descriptio-game {
+    width: 30%; 
+    color: #484848;
+    font-size: 21px;
+    font-family: "Geologica Variable", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.main-des-descrip {
+    font-family: 16px;
+}
+
+.img-main-des {
+    width: 560px;
+    height: 320px;
+    border-radius: 0.75rem;
+    margin-left: 20px;
+}
+
+.add-read {
+    width: 16px;
 }
